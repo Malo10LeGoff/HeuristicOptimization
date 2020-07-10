@@ -1804,9 +1804,8 @@ protected static void MemeticAlgorithmV3() {
         FileWriter fw = new FileWriter(f);
         fw.close();
 
-        //TestHeuristics(".\\instances\\100-5-0");
-       // TestHeuristics(".\\instances\\250-10-0");
-        TestHeuristics(".\\instances\\500-30-0");
+       // Test on a specific instance of the problem
+        TestHeuristics("500-30-0");
         
        
 			
